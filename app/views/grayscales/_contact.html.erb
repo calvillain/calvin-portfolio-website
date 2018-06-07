@@ -2,18 +2,21 @@
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
             <h1 class="section-heading">Contact</h1>
-            <p>Feel free to reach out via email at:</p>
-            <p><a href="mailto:calvin.jaeho.lee@gmail.com">calvin.jaeho.lee@gmail.com</a>
+            <p>Feel free to reach out via email at:<br/>
+            <a href="mailto:calvin.jaeho.lee@gmail.com">calvin.jaeho.lee@gmail.com</a>
             </p>
             <ul class="list-inline banner-social-buttons">
                 <li>
-                    <a href="mailto:calvin.jaeho.lee@gmail.com" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-envelope-open-o fa-fw"></i> <span class="network-name">Email</span></a>
+                    <%= fa_button_helper("fa fa-envelope-open-o", "Email", 
+                        "mailto:calvin.jaeho.lee@gmail.com") %>
                 </li>
                 <li>
-                    <a href="https://linkedin.com/in/calveenlee" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
+                    <%= fa_button_helper("fa fa-linkedin fa-fw", "LinkedIn", 
+                        "https://linkedin.com/in/calveenlee") %>
                 </li>
                 <li>
-                    <a href="https://github.com/calvillain" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    <%= fa_button_helper("fa fa-github fa-fw", "GitHub", 
+                        "https://github.com/calvillain") %>
                 </li>
             </ul>
         </div>

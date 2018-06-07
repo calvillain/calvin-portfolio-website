@@ -6,10 +6,12 @@
                 <p>Download a copy of my resume in the format of your choice.</p>
                 <ul class="list-inline">
                 	<li>
-                		<%= link_to raw("<i class='fa fa-file-pdf-o fa-fw'></i> PDF"), "#", class: "btn btn-default btn-lg" %>
+                		<%= fa_button_helper("fa fa-file-pdf-o", "PDF", "#", 
+                            {class: "btn btn-primary btn-lg", target: "_blank"}) %>
                 	</li>
                 	<li>
-                		<%= link_to raw("<i class='fa fa-file-word-o fa-fw'></i> Word"), "#", class: "btn btn-default btn-lg" %>
+                		<%= fa_button_helper('fa fa-file-word-o fa-fw', "Word", "#",
+                            {class: "btn btn-primary btn-lg", target: "_blank"}) %>
                 	</li>                	
                 </ul>
             </div>            
