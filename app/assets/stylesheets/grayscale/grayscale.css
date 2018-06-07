@@ -57,6 +57,17 @@ a:focus {
     color: #1d9b6c;
 }
 
+.profile-img {
+    border-radius: 50%;
+}
+
+@media(max-width: 767px) {
+    .profile-img {
+        width: 50%;
+        height: 50%;
+    }
+}
+
 .light {
     font-weight: 400;
 }
@@ -285,7 +296,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 200px;
     }
 
     .resume-section {
