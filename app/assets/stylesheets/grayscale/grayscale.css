@@ -68,6 +68,10 @@ a:focus {
     }
 }
 
+.work-tile {
+    padding-bottom: 15px;
+}
+
 .work-box {
     display: block;
     position: relative;
@@ -84,7 +88,7 @@ a:focus {
     text-align: center;
     color: #fff;
     opacity: 0;
-    background: #222;
+    background: #42dca3;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -95,22 +99,32 @@ a:focus {
     top: 50%;
     width: 100%;
     text-align: center;
+    transform: translateY(-50%);
 }
 
 .work-box .work-box-caption .work-box-caption-content .work-category,
 .work-box .work-box-caption .work-box-caption-content .work-name {
-    padding: 0 15px;
+    padding: 15px;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .work-box .work-box-caption .work-box-caption-content .work-category {
-    text-transform: uppercase;
     font-size: 14px;
     font-weight: 600;
 }
 
 .work-box .work-box-caption .work-box-caption-content .work-name {
-    font-size: 18px;
+    font-size: 24px;
+}
+
+@media(max-width: 767px) {
+    .work-box .work-box-caption .work-box-caption-content .work-name {
+        font-size: 38px;
+    }
+
+    .work-box .work-box-caption .work-box-caption-content .work-category {
+        font-size: 22px;
+    }
 }
 
 .work-box:hover .work-box-caption {
@@ -222,7 +236,7 @@ a:focus {
 }
 
 .intro .intro-body .brand-heading {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .intro .intro-body .intro-text {
@@ -231,6 +245,12 @@ a:focus {
 
 .section-heading {
     font-size: 60px;
+}
+
+@media(max-width:767px) {
+    .section-heading {
+        font-size: 40px;
+    }
 }
 
 @media(min-width:768px) {
