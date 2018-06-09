@@ -74,7 +74,7 @@ ReactOnRails.configure do |config|
   # While you may configure this to be the same as your client bundle file, this file is typically
   # different.
   #
-  config.server_bundle_js_file = "grayscale-bundle.js"
+  config.server_bundle_js_file = "server-bundle.js"
 
   # If set to true, this forces Rails to reload the server bundle if it is modified
   # Default value is Rails.env.development?
