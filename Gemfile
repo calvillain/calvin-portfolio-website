@@ -37,9 +37,8 @@ gem 'sprockets', '3.7.2'
 
 gem 'frontend-generators'
 
-gem 'react_on_rails', '11.0.0'
+gem "react_on_rails", "= 12.0.4"
 
-gem "webpacker", "~> 3.0"
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
@@ -68,3 +67,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem "webpacker", "~> 5.2"
