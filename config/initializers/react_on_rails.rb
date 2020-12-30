@@ -129,6 +129,9 @@ ReactOnRails.configure do |config|
   # By default(without this option) all yaml files from Rails.root.join("config", "locales")
   # and installed gems are loaded
   # config.i18n_yml_dir = Rails.root.join("config", "locales", "client")
+
+  
+  config.same_bundle_for_client_and_server = true
   
   ################################################################################
   ################################################################################
